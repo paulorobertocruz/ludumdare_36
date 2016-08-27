@@ -1,1 +1,4 @@
-sceneSetups: []
+sceneSetups:
+- path: Assets/cenaPrincipal.unity
+  isLoaded: 1
+  isActive: 1
