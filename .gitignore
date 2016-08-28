@@ -33,3 +33,14 @@ sysinfo.txt
 unity/ProjectSettings/GraphicsSettings.asset
 unity/ProjectSettings/GraphicsSettings.asset
 unity/ProjectSettings/ProjectVersion.txt
+unity/Assets/texturas/Materials/galho.mat
+*.mat
+unity/Assets/texturas/Materials.meta
+*.mat
+unity/Assets/texturas/Materials/galho.mat.meta
+*.meta
+unity/Assets/texturas/Materials/galho.mat
+unity/Assets/prefabs/thisFire.prefab
+unity/Assets/objetos/arvores.blend
+unity/Assets/cenaPrincipal.unity
+unity/Assets/cenaPrincipal.unity
