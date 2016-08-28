@@ -44,27 +44,27 @@ public class CharacterController : MonoBehaviour {
 		
 	}
 
-	void OnCollisionEnter(Collision collision){
-		//entra na zona
-		collision.collider.tag == "";
-		if (collision.gameObject.CompareTag("safe_zone_calor")) {
+	void OnCollisionEnter(Collision collisionEn){
+        //entra na zona
+        collisionEn.transform.tag = "";
+		if (collisionEn.gameObject.CompareTag("safe_zone_calor")) {
 			
 		}
-		else if(collision.gameObject.CompareTag("safe_zone_sanidade")){
+		else if(collisionEn.gameObject.CompareTag("safe_zone_sanidade")){
 
 
 		}
 		
 	}
 
-	void OnCollisionExit(Collision collision){
-		//sai da zona
+	void OnCollisionExit(Collision collisionEx){
+        //sai da zona
 
-		collision.collider.tag == "";
-		if (collision.gameObject.CompareTag("safe_zone_calor")) {
+        collisionEx.transform.tag = "";
+		if (collisionEx.gameObject.CompareTag("safe_zone_calor")) {
 
 		}
-		else if(collision.gameObject.CompareTag("safe_zone_sanidade")){
+		else if(collisionEx.gameObject.CompareTag("safe_zone_sanidade")){
 
 
 		}
