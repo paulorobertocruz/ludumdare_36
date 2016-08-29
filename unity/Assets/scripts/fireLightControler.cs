@@ -12,7 +12,7 @@ public class fireLightControler : MonoBehaviour {
     void Update()
     {
         float phi = Time.time / duration * 2 * Mathf.PI;
-        float amplitude = Mathf.Cos(phi) * 0.9F + 0.5f;
-        lt.intensity = amplitude+0.5f;
+        float amplitude = Mathf.Cos(phi) * 3F + 3f;
+        lt.intensity = amplitude + 1.5f;
     }
 }
